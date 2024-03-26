@@ -4,5 +4,5 @@ from .views import home_page
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", home_page),
+    path("lazy/", home_page),
 ]
